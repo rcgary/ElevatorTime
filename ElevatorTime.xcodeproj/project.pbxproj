@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2225624E05961E53CAF1EC8B /* Pods_ElevatorTimeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73E517A803E385487C2C295 /* Pods_ElevatorTimeUITests.framework */; };
 		6810A00C1C845574004CE8E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810A00B1C845574004CE8E4 /* AppDelegate.swift */; };
 		6810A00E1C845574004CE8E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810A00D1C845574004CE8E4 /* ViewController.swift */; };
 		6810A0111C845574004CE8E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6810A00F1C845574004CE8E4 /* Main.storyboard */; };
 		6810A0131C845574004CE8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6810A0121C845574004CE8E4 /* Assets.xcassets */; };
 		6810A0161C845574004CE8E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6810A0141C845574004CE8E4 /* LaunchScreen.storyboard */; };
-		6810A0211C845575004CE8E4 /* ElevatorTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810A0201C845575004CE8E4 /* ElevatorTimeTests.swift */; };
 		6810A02C1C845575004CE8E4 /* ElevatorTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810A02B1C845575004CE8E4 /* ElevatorTimeUITests.swift */; };
 		6810A03A1C8455BB004CE8E4 /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810A0391C8455BB004CE8E4 /* Elevator.swift */; };
 		6810A03C1C845D56004CE8E4 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810A03B1C845D56004CE8E4 /* Passenger.swift */; };
+		A03353251C851C580027454A /* ElevatorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03353241C851C580027454A /* ElevatorSpec.swift */; };
+		A03353271C85272F0027454A /* PassengerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03353261C85272F0027454A /* PassengerSpec.swift */; };
+		C66FD449E2AAAABBF09D2C75 /* Pods_ElevatorTimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA2C47B56DD99C4491342D8 /* Pods_ElevatorTimeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4AA2C47B56DD99C4491342D8 /* Pods_ElevatorTimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElevatorTimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6810A0081C845574004CE8E4 /* ElevatorTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElevatorTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6810A00B1C845574004CE8E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6810A00D1C845574004CE8E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,13 +48,19 @@
 		6810A0151C845574004CE8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6810A0171C845574004CE8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6810A01C1C845575004CE8E4 /* ElevatorTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElevatorTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6810A0201C845575004CE8E4 /* ElevatorTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorTimeTests.swift; sourceTree = "<group>"; };
 		6810A0221C845575004CE8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6810A0271C845575004CE8E4 /* ElevatorTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElevatorTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6810A02B1C845575004CE8E4 /* ElevatorTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorTimeUITests.swift; sourceTree = "<group>"; };
 		6810A02D1C845575004CE8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6810A0391C8455BB004CE8E4 /* Elevator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
 		6810A03B1C845D56004CE8E4 /* Passenger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Passenger.swift; sourceTree = "<group>"; };
+		738C71696612686F4844A4E0 /* Pods-ElevatorTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevatorTimeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElevatorTimeTests/Pods-ElevatorTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A03353241C851C580027454A /* ElevatorSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElevatorSpec.swift; sourceTree = "<group>"; };
+		A03353261C85272F0027454A /* PassengerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassengerSpec.swift; sourceTree = "<group>"; };
+		B73E517A803E385487C2C295 /* Pods_ElevatorTimeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElevatorTimeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42250BF59AE2311D005C2D8 /* Pods-ElevatorTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevatorTimeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElevatorTimeTests/Pods-ElevatorTimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		DAAD9FA9E0B9FEA404E051A9 /* Pods-ElevatorTimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevatorTimeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElevatorTimeUITests/Pods-ElevatorTimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3C45ADD4E90FE29041C2FDC /* Pods-ElevatorTimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevatorTimeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElevatorTimeUITests/Pods-ElevatorTimeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C66FD449E2AAAABBF09D2C75 /* Pods_ElevatorTimeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2225624E05961E53CAF1EC8B /* Pods_ElevatorTimeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +97,8 @@
 				6810A01F1C845575004CE8E4 /* ElevatorTimeTests */,
 				6810A02A1C845575004CE8E4 /* ElevatorTimeUITests */,
 				6810A0091C845574004CE8E4 /* Products */,
+				931AD36688BFDA2DAB075473 /* Pods */,
+				E80CBAA24F9168D8B2553889 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,7 +130,8 @@
 		6810A01F1C845575004CE8E4 /* ElevatorTimeTests */ = {
 			isa = PBXGroup;
 			children = (
-				6810A0201C845575004CE8E4 /* ElevatorTimeTests.swift */,
+				A03353241C851C580027454A /* ElevatorSpec.swift */,
+				A03353261C85272F0027454A /* PassengerSpec.swift */,
 				6810A0221C845575004CE8E4 /* Info.plist */,
 			);
 			path = ElevatorTimeTests;
@@ -129,6 +144,26 @@
 				6810A02D1C845575004CE8E4 /* Info.plist */,
 			);
 			path = ElevatorTimeUITests;
+			sourceTree = "<group>";
+		};
+		931AD36688BFDA2DAB075473 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				738C71696612686F4844A4E0 /* Pods-ElevatorTimeTests.debug.xcconfig */,
+				C42250BF59AE2311D005C2D8 /* Pods-ElevatorTimeTests.release.xcconfig */,
+				DAAD9FA9E0B9FEA404E051A9 /* Pods-ElevatorTimeUITests.debug.xcconfig */,
+				F3C45ADD4E90FE29041C2FDC /* Pods-ElevatorTimeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E80CBAA24F9168D8B2553889 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AA2C47B56DD99C4491342D8 /* Pods_ElevatorTimeTests.framework */,
+				B73E517A803E385487C2C295 /* Pods_ElevatorTimeUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6810A0331C845575004CE8E4 /* Build configuration list for PBXNativeTarget "ElevatorTimeTests" */;
 			buildPhases = (
+				A7F987C83EA387415F6E02E5 /* Check Pods Manifest.lock */,
 				6810A0181C845575004CE8E4 /* Sources */,
 				6810A0191C845575004CE8E4 /* Frameworks */,
 				6810A01A1C845575004CE8E4 /* Resources */,
+				2D7594E0FF5360F825E042D9 /* Embed Pods Frameworks */,
+				225E81CFA97FCB46F0913D98 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6810A0361C845575004CE8E4 /* Build configuration list for PBXNativeTarget "ElevatorTimeUITests" */;
 			buildPhases = (
+				D1A45CA9A4648E6D3C212D04 /* Check Pods Manifest.lock */,
 				6810A0231C845575004CE8E4 /* Sources */,
 				6810A0241C845575004CE8E4 /* Frameworks */,
 				6810A0251C845575004CE8E4 /* Resources */,
+				85F67B0627B3488B395A00B4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +297,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		225E81CFA97FCB46F0913D98 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElevatorTimeTests/Pods-ElevatorTimeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D7594E0FF5360F825E042D9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElevatorTimeTests/Pods-ElevatorTimeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85F67B0627B3488B395A00B4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElevatorTimeUITests/Pods-ElevatorTimeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F987C83EA387415F6E02E5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A45CA9A4648E6D3C212D04 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6810A0041C845574004CE8E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -273,7 +391,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6810A0211C845575004CE8E4 /* ElevatorTimeTests.swift in Sources */,
+				A03353251C851C580027454A /* ElevatorSpec.swift in Sources */,
+				A03353271C85272F0027454A /* PassengerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +544,7 @@
 		};
 		6810A0341C845575004CE8E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738C71696612686F4844A4E0 /* Pods-ElevatorTimeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ElevatorTimeTests/Info.plist;
@@ -437,6 +557,7 @@
 		};
 		6810A0351C845575004CE8E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42250BF59AE2311D005C2D8 /* Pods-ElevatorTimeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ElevatorTimeTests/Info.plist;
@@ -449,6 +570,7 @@
 		};
 		6810A0371C845575004CE8E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAAD9FA9E0B9FEA404E051A9 /* Pods-ElevatorTimeUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ElevatorTimeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -461,6 +583,7 @@
 		};
 		6810A0381C845575004CE8E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C45ADD4E90FE29041C2FDC /* Pods-ElevatorTimeUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ElevatorTimeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -490,6 +613,7 @@
 				6810A0321C845575004CE8E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6810A0331C845575004CE8E4 /* Build configuration list for PBXNativeTarget "ElevatorTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +622,7 @@
 				6810A0351C845575004CE8E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6810A0361C845575004CE8E4 /* Build configuration list for PBXNativeTarget "ElevatorTimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +631,7 @@
 				6810A0381C845575004CE8E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

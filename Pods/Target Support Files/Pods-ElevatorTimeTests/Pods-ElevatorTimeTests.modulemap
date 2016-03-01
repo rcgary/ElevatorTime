@@ -1,0 +1,6 @@
+framework module Pods_ElevatorTimeTests {
+  umbrella header "Pods-ElevatorTimeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

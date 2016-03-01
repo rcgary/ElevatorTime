@@ -8,10 +8,10 @@
 
 import Foundation
 
-enum Direction {
-    case Up
-    case Down
-    case Stationary
+enum Direction : Int {
+    case Up = 1
+    case Down = -1
+    case Stationary = 0
 }
 
 struct Elevator {
